@@ -1,0 +1,164 @@
+body{
+  font-family: 'Jost', sans-serif;
+    /* background-color: rgb(202, 203, 204); */
+    margin:0;
+}
+.section{
+  height: 90vh;
+  width: 900wh;
+}
+.header{
+  background-image: url(/images/headerbg.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-attachment: fixed;
+}
+.h-title{
+  display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:2% 5%;
+
+}
+.h-title a{
+  text-decoration: none;
+  color: #000000;
+}
+#h-fix{
+  position: fixed;
+  width: 100vw;
+}
+
+.art-wall{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5a5659;
+}
+
+
+.aw-outer{
+  background-color: rgba(240, 248, 255, 0.541);
+height:50% ;
+width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.aw-inner{
+  background-color: #ffd24a;
+  border-radius: 13px;
+  background: linear-gradient(145deg, #e6bd43, #ffe14f);
+box-shadow:  7px 7px 14px #606366,
+           -7px -7px 14px #ffffff;
+  color: rgb(70, 70, 70);
+  height: 30%;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+#bt :active{
+  border-radius: 13px;
+  background: linear-gradient(145deg, #e6bd43, #ffe14f);
+box-shadow: inset 7px 7px 14px #66541e,
+          inset -7px -7px 14px #ffff76;
+
+        }
+
+/* Meet the artists */
+
+
+.ma-bgimg{
+  background-image: url(images/bg.jpeg);
+  background-attachment: fixed;
+  background-size: 40%;
+  justify-content: center;
+align-items: center;
+display: flex;
+ background-color: #d1d1d125;
+
+}
+.ma-tint{
+  height: 70%;
+  width: 70%;
+  background-color: #d1d1d1a1;
+}
+.ma-h2{
+  position: relative;
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: center;
+    color:rgb(37, 58, 58);
+  }
+.meetimg-left{
+  position: relative;
+  padding-left: 20%;
+  padding-right: 10%;
+  z-index: 1;
+  top: 45px;
+/* margin: 20px 30px ; */
+  left: 42px;
+  width: 18%;
+
+}
+.meetimg-right{
+
+  position: relative;
+  padding-right: 20%;
+  z-index: 1;
+  top: 45px;
+/* margin: 20px 30px ; */
+  left: 42px;
+  width: 18%;
+
+}
+/* modal */
+#MyForm{
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 14px;
+    background: #ececec;
+}
+
+/* navbar */
+.navbar{
+  background-color: #ffb8b8;
+text-align: center;
+padding: 40px 0 40px;
+}
+.a-nav{
+  margin: 20px 20px;
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+.a-nav:hover{
+  color:#5a5659;
+}
+.whitespace{
+  background-color: #fff;
+  padding-top: 4%;
+}
+
+/* footer-section */
+.fimage{
+width: 4%;
+padding-bottom: 3%;
+}
+
+.footer{
+text-align: center;
+color: #fff;
+background-color: #000000;
+line-height: 0.5rem;
+padding-top: 1%;
+padding-bottom: 1%;
+}
+
+.copyright{
+color: #D1D1D1;
+font-size: 0.75rem;
+
+}
